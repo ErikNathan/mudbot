@@ -1,0 +1,7 @@
+{
+  "token": "MjY0OTY3OTQ5MTgwMjA3MTA1.C9L29A.HdJx4V8Yc2otsDpi4Psi1978NHQ",
+  "name": "MudBot",
+  "playing": "By moist & Mudstep",
+  "command_prefix": ".",
+  "getTarget": "http://discord-gd-stats-bot.herokuapp.com/wake.txt"
+}

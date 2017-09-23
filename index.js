@@ -226,7 +226,7 @@ function getLevelPass(GD_levelname, mseg, cb) {
 					gameVersion: "21",
 					binaryVersion: "33",
 					gdw: "0",
-					levelID: objectArray["1"],
+					levelID: objectArray[1],
 					inc: "1",
 					extras: "0",
 					secret: "Wmfd2893gb7"
@@ -239,8 +239,9 @@ function getLevelPass(GD_levelname, mseg, cb) {
 				} else if (body2 == "-1") {
 					return
 				} else {
-					var objectArray = body2.split(":")
-					var passEn0 = objectArray["63"].split("#")
+					var objectArray2 = body2.split(":")
+					console.log(objectArray2["65"])
+					var passEn0 = objectArray2["65"].split("#")
 					var passEn = passEn0["0"]
 					var buf = Buffer.from(passEn, 'base64')
 					var password = Vigenere(buf)

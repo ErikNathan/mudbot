@@ -173,7 +173,7 @@ client.on("message", message => {
 	if (commandIs('userid')){
 		channel.send(message.author.id)
 	}
-	if (commandIs('deal')){
+	/*if (commandIs('deal')){
 		var cardlist = cards.cards
 		var split = cardlist.split(',')
 		var card1 = split[Math.floor(Math.random() * 51)]
@@ -184,7 +184,7 @@ client.on("message", message => {
 		channel.send(card1.split(' ')[1] + '\u000D' + card2.split(' ')[1])
 		console.log(card1.split(' ')[1])
 		console.log(card2.split(' ')[1])
-	}
+	}*/
 })
 
 function getLevelPass(GD_levelname, mseg, cb) {
